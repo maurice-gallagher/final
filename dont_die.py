@@ -38,7 +38,6 @@ time.sleep(2)
 
 def level_1():
     print("_________________________________________________________________________________")
-    time.sleep(3)
     print("Narrator: Okay user, I haven't cared to learn your name, and I still don't.")
     time.sleep(3)
     print("Narrator: I mean, it's not like you will survive this game, it's IMPOSSIBLE!")
@@ -337,7 +336,8 @@ def level_2_dead():
         time.sleep(3)
         print("Narrator: You move on to level 3 with the sounds of a dying old woman behind you.")
         time.sleep(4.5)
-        return level_3
+        return level_3()
+        
 def level_3():
     print("_________________________________________________________________________________")
     print("Narrator: SO...")
